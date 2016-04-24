@@ -1,0 +1,32 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>SkeD</h1>
+    <p class="lead">Work with someone best for you</p>
+    <p class="lead">we connect employers to skilled, certified and verified professionals</p>
+    <p><a href="{% url 'about' %}" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Learn more about us</h2>
+        <p>
+            About us page needs to implements
+        </p>
+        <p><a class="btn btn-default" href="{% url 'about' %}">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Find a Skill</h2>
+        <p>Skill page needs to implements, yadayadayada</p>
+        <p><a class="btn btn-default" href="https://www.facebook.com/smahesh11?fref=ts">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Find a Job</h2>
+        <p>Find a job needs to implements, yada yada yada yada yada.</p>
+        <p><a class="btn btn-default" href="{% url 'contact' %}">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
