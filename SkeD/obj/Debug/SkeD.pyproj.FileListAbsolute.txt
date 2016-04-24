@@ -1,0 +1,13 @@
+C:\Workspace\SkeD\SkeD\bin\Microsoft.PythonTools.WebRole.dll
+C:\Workspace\SkeD\SkeD\obj\Debug\attach_server.py
+C:\Workspace\SkeD\SkeD\obj\Debug\visualstudio_py_debugger.py
+C:\Workspace\SkeD\SkeD\obj\Debug\visualstudio_py_repl.py
+C:\Workspace\SkeD\SkeD\obj\Debug\visualstudio_py_util.py
+C:\Workspace\SkeD\SkeD\obj\Debug\__init__.py
+C:\Workspace\SkeD\SkeD\obj\Debug\__main__.py
+C:\Workspace\SkeD\SkeD\bin\AzureSetup.cfg
+C:\Workspace\SkeD\SkeD\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Workspace\SkeD\SkeD\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Workspace\SkeD\SkeD\bin\wfastcgi.py
+C:\Workspace\SkeD\SkeD\obj\Debug\web.config
+C:\Workspace\SkeD\SkeD\obj\Debug\web.debug.config
