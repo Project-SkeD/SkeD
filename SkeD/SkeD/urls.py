@@ -2,19 +2,21 @@
 Definition of urls for SkeD.
 """
 
-from datetime import datetime
 from django.conf.urls import url, include
 import django.contrib.auth.views
 from django.contrib import admin, admindocs
+from datetime import datetime
 
 import app.forms
 import app.views
 import SkillApp.views
+from SkillApp.models import *
 
 # Uncomment the next lines to enable the admin:
 # from django.conf.urls import include
 # from django.contrib import admin
-# admin.autodiscover()
+
+admin.autodiscover()
 
 urlpatterns = [
     # Examples:
