@@ -24,3 +24,16 @@ C:\Users\ritesh\Documents\GitHub\SkeD\SkeD\bin\Microsoft.PythonTools.AzureSetup.
 C:\Users\ritesh\Documents\GitHub\SkeD\SkeD\bin\wfastcgi.py
 C:\Users\ritesh\Documents\GitHub\SkeD\SkeD\obj\Debug\web.config
 C:\Users\ritesh\Documents\GitHub\SkeD\SkeD\obj\Debug\web.debug.config
+C:\workspacepython\SkeD\SkeD\bin\Microsoft.PythonTools.WebRole.dll
+C:\workspacepython\SkeD\SkeD\obj\Debug\attach_server.py
+C:\workspacepython\SkeD\SkeD\obj\Debug\visualstudio_py_debugger.py
+C:\workspacepython\SkeD\SkeD\obj\Debug\visualstudio_py_repl.py
+C:\workspacepython\SkeD\SkeD\obj\Debug\visualstudio_py_util.py
+C:\workspacepython\SkeD\SkeD\obj\Debug\__init__.py
+C:\workspacepython\SkeD\SkeD\obj\Debug\__main__.py
+C:\workspacepython\SkeD\SkeD\bin\AzureSetup.cfg
+C:\workspacepython\SkeD\SkeD\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\workspacepython\SkeD\SkeD\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\workspacepython\SkeD\SkeD\bin\wfastcgi.py
+C:\workspacepython\SkeD\SkeD\obj\Debug\web.config
+C:\workspacepython\SkeD\SkeD\obj\Debug\web.debug.config
