@@ -60,6 +60,7 @@
     <Folder Include="SkillApp\" />
     <Folder Include="SkillApp\migrations\" />
     <Folder Include="SkillApp\templates\" />
+    <Folder Include="SkillApp\templates\SkillApp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\app\layout_bak.html" />
@@ -95,6 +96,7 @@
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
     <Content Include="SkillApp\templates\index.html" />
+    <Content Include="SkillApp\templates\SkillApp\FindSkill.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.mht">
