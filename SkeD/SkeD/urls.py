@@ -5,6 +5,7 @@ Definition of urls for SkeD.
 from django.conf.urls import url, include
 import django.contrib.auth.views
 from django.contrib import admin, admindocs
+from django.views.generic import ListView, DetailView
 from datetime import datetime
 
 import app.forms
@@ -41,7 +42,8 @@ urlpatterns = [
             'next_page': '/',
         },
         name='logout'),
-    url(r'^findSkill$', SkillApp.views.findSkill, name='findSkill'),
+    url(r'^findSkill/$', ListView.as_view(queryset=Applicant.objects.all().order_by('-LastName')[:25],
+                                      template_name="SkillApp/FindSkill.html")),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
