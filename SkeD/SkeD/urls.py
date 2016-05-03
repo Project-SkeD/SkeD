@@ -21,9 +21,11 @@ admin.autodiscover()
 
 urlpatterns = [
     # Examples:
-    url(r'^$', app.views.home, name='home'),
+    # url(r'^$', app.views.home, name='home'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about', app.views.about, name='about'),
+    url(r'^$', ListView.as_view(queryset=Applicant.objects.all().order_by('-LastName')[:25],
+                                      template_name='app/new_about.html')),
     url(r'^login/$',
         django.contrib.auth.views.login,
         {
