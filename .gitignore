@@ -1,2 +1,3 @@
 .vs/SkeD/v14/.suo
-SkeD/app/forms.pyc
+*.pyc
+*.config

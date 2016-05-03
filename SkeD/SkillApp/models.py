@@ -14,7 +14,7 @@ class Applicant(models.Model):
     Languages = models.CharField(max_length = 30)
     Verified_By = models.CharField(max_length = 50)
     
-    def __unicode__(self):
+    def __str__(self):
         return str(self.FirstName) + " " +str(self.LastName)
 
 class City(models.Model):
@@ -22,7 +22,7 @@ class City(models.Model):
     CityName = models.CharField(max_length = 30)
     State = models.CharField(max_length = 30)
 
-    def __unicode__(self):
+    def __str__(self):
         return str(self.CityName)
 
 class JobRole(models.Model):
@@ -30,7 +30,7 @@ class JobRole(models.Model):
     Jobtype = models.CharField(max_length = 30)
     IndustryName = models.CharField(max_length = 30)
     
-    def __unicode__(self):
+    def __str__(self):
         return str(self.Jobtype)
 
 class Qualification(models.Model):
@@ -39,7 +39,7 @@ class Qualification(models.Model):
     StartDate = models.DateField()
     EndDate = models.DateField()
         
-    def __unicode__(self):
+    def __str__(self):
         return str(self.InstitutionName)
 
 class Experience(models.Model):
@@ -48,5 +48,5 @@ class Experience(models.Model):
     StartDate = models.DateField()
     EndDate = models.DateField()
     
-    def __unicode__(self):
+    def __str__(self):
         return str(self.EmployerName)
